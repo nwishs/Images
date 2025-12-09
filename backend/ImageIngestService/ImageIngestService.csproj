@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AWSProjectType>Lambda</AWSProjectType>
+    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+    <AssemblyName>ImageIngestService</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Amazon.Lambda.Core" Version="2.2.0" />
+    <PackageReference Include="Amazon.Lambda.APIGatewayEvents" Version="2.7.0" />
+    <PackageReference Include="Amazon.Lambda.Serialization.SystemTextJson" Version="2.3.1" />
+    <PackageReference Include="AWSSDK.S3" Version="3.7.305.19" />
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.301.47" />
+    <PackageReference Include="AWSSDK.SQS" Version="3.7.302.21" />
+  </ItemGroup>
+</Project>

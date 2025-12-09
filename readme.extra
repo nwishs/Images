@@ -1,0 +1,37 @@
+
+-------
+conda deactivate
+
+----------
+
+Tools directory '/Users/navishgandhi/.dotnet/tools' is not currently on the PATH environment variable.
+If you are using zsh, you can add it to your profile by running the following command:
+
+cat << \EOF >> ~/.zprofile
+# Add .NET Core SDK tools
+export PATH="$PATH:/Users/navishgandhi/.dotnet/tools"
+EOF
+
+And run `zsh -l` to make it available for current session.
+
+You can only add it to the current session by running the following command:
+
+export PATH="$PATH:/Users/navishgandhi/.dotnet/tools"
+
+You can invoke the tool using the following command: dotnet-lambda-test-tool-8.0
+Tool 'amazon.lambda.testtool-8.0' (version '0.16.3') was successfully installed.
+
+
+--------------------------------------
+
+$ /bin/zsh -lc 'dotnet build ImageIngestService.csproj'
+not interactive and can't open terminal
+
+-----------
+
+$ /bin/zsh -lc 'cd /Users/navishgandhi/repos/images/backend/ImageIngestService && dotnet build'
+not interactive and can't open terminal
+compinit: initialization aborted
+
+
+---------

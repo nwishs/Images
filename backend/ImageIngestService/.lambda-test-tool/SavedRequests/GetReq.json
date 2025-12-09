@@ -1,0 +1,10 @@
+{
+  "resource": "/",
+  "path": "/",
+  "httpMethod": "GET",
+  "headers": { "Header1": "value1" },
+  "queryStringParameters": { "parameter1": "value1" },
+  "requestContext": { "httpMethod": "GET" },
+  "body": "Hello from Lambda",
+  "isBase64Encoded": false
+}

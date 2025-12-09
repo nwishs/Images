@@ -1,0 +1,12 @@
+{
+  "Information": {
+    "Description": "Image Processor Lambda Function"
+  },
+  "function-name": "ImageProcessor",
+  "function-handler": "ImageProcessor::SqsProcessor.Function::FunctionHandler",
+  "framework": "net8.0",
+  "region": "ap-southeast-2",
+  "local-test-port": 5051,
+  "port": 5051,
+  "package-type": "Zip"
+}

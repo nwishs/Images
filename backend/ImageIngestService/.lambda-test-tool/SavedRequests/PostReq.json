@@ -1,0 +1,14 @@
+{
+  "resource": "/",
+  "path": "/",
+  "httpMethod": "POST",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "queryStringParameters": {},
+  "requestContext": {
+    "httpMethod": "POST"
+  },
+  "body": "{\n  \"itemId\": \"12345\",\n  \"photoUrls\": [\n    \"https://dealer-public-images.s3.ap-southeast-2.amazonaws.com/sample_images/6w427094kv1l7sx1x4hqfjih5.jpg\",\n    \"https://dealer-public-images.s3.ap-southeast-2.amazonaws.com/sample_images/46t6z18oyzkjybkvbabvunsoc.jpg\",\n    \"https://dealer-public-images.s3.ap-southeast-2.amazonaws.com/sample_images/77ed6qf0ec26o0s98045ugsob.jpg\",\n    \"https://dealer-public-images.s3.ap-southeast-2.amazonaws.com/sample_images/a44a2dc1tncqde3adxtzc7sps.jpg\",\n    \"https://dealer-public-images.s3.ap-southeast-2.amazonaws.com/sample_images/egsa4l00k23s90lvy2vsup7gc.jpg\",\n    \"https://dealer-public-images.s3.ap-southeast-2.amazonaws.com/sample_images/hhamnqjm45e2px1q4mo3otxy5.jpg\",\n    \"https://dealer-public-images.s3.ap-southeast-2.amazonaws.com/sample_images/lgggano26hm9anq9bppprfkx3.jpg\",\n    \"https://dealer-public-images.s3.ap-southeast-2.amazonaws.com/sample_images/u49y3am6qnw7vmnrgomturwb6.jpg\"\n  ]\n}",
+  "isBase64Encoded": false
+}

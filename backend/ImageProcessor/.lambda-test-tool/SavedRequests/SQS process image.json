@@ -1,0 +1,33 @@
+{
+  "Records": [
+    {
+      "messageId": "19dd0b57-b21e-4ac1-bd88-01bbb068cb78",
+      "receiptHandle": "MessageReceiptHandle",
+      "body": "Hello from SQS!",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1523232000000",
+        "SenderId": "123456789012",
+        "ApproximateFirstReceiveTimestamp": "1523232000001"
+      },
+      "messageAttributes": {
+        "ItemId": {
+          "dataType": "String",
+          "stringValue": "12345"
+        },
+        "S3URL": {
+          "dataType": "String",
+          "stringValue": "https://carimagesrepository2.s3.amazonaws.com/12345/u49y3am6qnw7vmnrgomturwb6.jpg"
+        },
+        "format": {
+          "dataType": "String",
+          "stringValue": "32px"
+        }
+      },
+      "md5OfBody": "7b270e59b47ff90a553787216d55d91d",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:{partition}:sqs:{region}:123456789012:MyQueue",
+      "awsRegion": "{region}"
+    }
+  ]
+}

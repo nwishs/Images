@@ -1,0 +1,70 @@
+.app-shell {
+  min-height: 100vh;
+  background: radial-gradient(circle at 20% 20%, #1f2b5b 0, rgba(18, 24, 47, 0.25) 35%),
+    linear-gradient(135deg, #0f172a 0%, #0b1021 50%, #0f172a 100%);
+  padding: 3rem 1.5rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.panel {
+  padding: 32px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+}
+
+.title {
+  letter-spacing: -0.02em;
+  color: #7cf2c6;
+}
+
+.section-heading {
+  color: #9fc7ff;
+  letter-spacing: 0.02em;
+}
+
+.panel .MuiTextField-root .MuiInputBase-root {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.panel .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.panel .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #7cf2c6;
+}
+
+.panel .MuiButton-contained {
+  background: linear-gradient(135deg, #6de4a8, #4dd2f7);
+  color: #071125;
+  font-weight: 700;
+  padding-inline: 22px;
+}
+
+.panel .MuiButton-outlined {
+  border-color: rgba(255, 255, 255, 0.4);
+  color: #dfe7ff;
+}
+
+.panel .MuiButton-root:disabled {
+  opacity: 0.6;
+}
+
+.panel .MuiAlert-root {
+  background: rgba(124, 242, 198, 0.08);
+  color: #d8fff0;
+}
+
+.panel .MuiAlert-root.MuiAlert-colorError {
+  background: rgba(255, 87, 126, 0.08);
+  color: #ffc1d0;
+}
+
+.panel .MuiImageList-root {
+  margin-top: 8px;
+}

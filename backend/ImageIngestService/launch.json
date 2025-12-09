@@ -1,0 +1,10 @@
+{
+  "Information": {
+    "Description": "Image Ingest Lambda Function"
+  },
+  "function-name": "ImageIngestService",
+  "function-handler": "ImageIngestService::ImageIngestLambda.Function::FunctionHandler",
+  "framework": "net8.0",
+  "region": "ap-southeast-2",
+  "package-type": "Zip"
+}
