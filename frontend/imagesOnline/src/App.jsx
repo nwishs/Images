@@ -25,6 +25,7 @@ const backendApiBase = (() => {
 const parseUrls = (data) => {
   if (Array.isArray(data)) return data
   if (Array.isArray(data?.urls)) return data.urls
+  if (Array.isArray(data?.Urls)) return data.Urls
   if (Array.isArray(data?.data)) return data.data
   if (typeof data === 'string') return [data]
   return []
@@ -173,6 +174,7 @@ function App() {
                 />
                 <Button
                   variant="outlined"
+                  color="primary"
                   size="large"
                   onClick={handleViewImages}
                   disabled={getLoading}
@@ -183,7 +185,14 @@ function App() {
             </Stack>
 
             {(message || error) && (
-              <Alert severity={error ? 'error' : 'success'}>
+              <Alert
+                severity={error ? 'error' : 'success'}
+                sx={
+                  error
+                    ? undefined
+                    : { backgroundColor: '#1b4332', color: '#f1f5f9' }
+                }
+              >
                 {error || message}
               </Alert>
             )}

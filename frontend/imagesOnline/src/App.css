@@ -47,8 +47,9 @@
 }
 
 .panel .MuiButton-outlined {
-  border-color: rgba(255, 255, 255, 0.4);
-  color: #dfe7ff;
+  border-color: #7cf2c6;
+  color: #7cf2c6;
+  background: rgba(124, 242, 198, 0.08);
 }
 
 .panel .MuiButton-root:disabled {
@@ -56,13 +57,15 @@
 }
 
 .panel .MuiAlert-root {
-  background: rgba(124, 242, 198, 0.08);
-  color: #d8fff0;
+  background: #11361c;
+  color: #e7fff5;
+  border: 1px solid #52d28b;
 }
 
 .panel .MuiAlert-root.MuiAlert-colorError {
-  background: rgba(255, 87, 126, 0.08);
-  color: #ffc1d0;
+  background: #3b0f1a;
+  color: #ffe3ec;
+  border-color: #ff5f87;
 }
 
 .panel .MuiImageList-root {
